@@ -1,0 +1,35 @@
+@import './../../../styles/color_pallete.scss';
+
+.main-task-card-container {
+  width: 16.12rem;
+  height: 15.31rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #83E6E6;
+  padding: 1rem;
+
+  .bottom-info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .buttons-container {
+      display: flex;
+      gap: 1rem;
+
+      .button-wrapper {
+        width: 2.31rem;
+        height: 2.31rem;
+        border-radius: 50%;
+        background-color: $night-black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+
+  }
+}

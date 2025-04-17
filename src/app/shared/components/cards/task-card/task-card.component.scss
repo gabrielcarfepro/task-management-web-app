@@ -1,4 +1,5 @@
 @import './../../../styles/color_pallete.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 .main-task-card-container {
   width: 16.12rem;
@@ -8,12 +9,18 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: #83E6E6;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
+  font-family: 'Roboto', sans-serif;
 
   .bottom-info-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    .date-span {
+      font-size: .8rem;
+      font-weight: 300;
+    }
 
     .buttons-container {
       display: flex;
